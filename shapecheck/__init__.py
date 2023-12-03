@@ -1,6 +1,4 @@
-import inspect
-import textwrap
-from typing import Callable, Dict, Optional, Protocol, Tuple
+from typing import Dict, Protocol, Tuple
 
 
 class UnknownDimError(Exception):
